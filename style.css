@@ -1,5 +1,5 @@
 
 .coins{ float: left; margin-bottom: 6px;}
-.coins .coinmarketcap-currency-widget div:nth-child(3){ display: none;} 
+.coins .coinmarketcap-currency-widget div div:nth-child(3){ display: none;} 
 .nav{ margin-bottom: 10px;
-H1 a{font-size: 80%;  
+H1 a{font-size: 70%;  
