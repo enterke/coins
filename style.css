@@ -5,8 +5,12 @@
 .list_simple .coins .coinmarketcap-currency-widget div{line-height:29px!important; float: left!important;margin-left:8px;  }
 .list_simple .coins .coinmarketcap-currency-widget{width: 250px;}
 .list_simple .coins .coinmarketcap-currency-widget div{width: 210px;}
-.list_simple .coins * { border: none !important; font-size: 2.3em;}
+.list_simple .coins * { border: none !important; font-size: 1.5em;}
 .list_details .coins * {font-size: 1.3em;}
+
+@media only screen and (max-width: 500px) {
+  .list_simple .coins * { border: none !important; font-size: 2.3em;}
+}
 
 
 H1{text-align: center; }
