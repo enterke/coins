@@ -2,7 +2,7 @@
 .list_simple .coins{ float: left; margin-bottom: 6px; height: 89px; background-color: white;}
 .list_details .coins{ float: left; margin-bottom: 6px; height: 156px; background-color: white;}
 .list_simple .coins .coinmarketcap-currency-widget div div:last-child{ display: none;}
-.list_simple .coins .coinmarketcap-currency-widget div{line-height:21px!important; float: left;  }
+.list_simple .coins .coinmarketcap-currency-widget div{line-height:21px!important; float: left!important;margin-left:8px;  }
 .list_simple .coins .coinmarketcap-currency-widget{width: 188px;}
 .list_simple .coins .coinmarketcap-currency-widget div{width: 188px;}
 
