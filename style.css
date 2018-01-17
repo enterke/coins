@@ -1,5 +1,8 @@
 
 .list_simple .coins{ float: left; margin-bottom: 6px; height: 75px; background-color: white;}
 .list_details .coins{ float: left; margin-bottom: 6px; height: 156px; background-color: white;}
+.list_simple .coins .coinmarketcap-currency-widget div div:last-child{ display: none;}
+.list_details .coins .coinmarketcap-currency-widget div div:last-child{ display: none;}
+
 .nav{ margin-bottom: 10px;}
 H1 span{font-size: 70%!important;  }
