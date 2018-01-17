@@ -6,8 +6,9 @@
 .list_simple .coins .coinmarketcap-currency-widget{width: 200px;}
 .list_simple .coins .coinmarketcap-currency-widget div{width: 188px;}
 .list_simple .coins * { border: none !important;}
-.list_simple .coins H1{text-align: center; }
+
 .coins * {font-size: 1.3em;}
+H1{text-align: center; }
 H1 span{font-size: 70%!important;
 
 .stuklist_details .coins .coinmarketcap-currency-widget div:first-of-type div:last-child{ display: none;}
