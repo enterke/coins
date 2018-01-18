@@ -1,5 +1,5 @@
 .list_details .coins * {font-size: 1.2em; text-align: center;}
-.list_details .coins{ float: left; margin-bottom: 6px; height: 158px; background-color: white; overflow: hidden;margin-right:10px;}
+.list_details .coins{ float: left; margin-bottom: 10px; height: 158px; background-color: white; overflow: hidden;margin-right:10px; padding-right: 8px;}
 .list_simple .coins{ float: left; margin-bottom: 10px; margin-right: 20px; height: 143px;}
 .list_simple .coins .coinmarketcap-currency-widget div div:last-child{ display: none;}
 .list_simple .coins .coinmarketcap-currency-widget div{line-height:29px!important; float: left!important; }
