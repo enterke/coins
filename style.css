@@ -11,7 +11,7 @@
 .list_simple .graphic{ float: left; margin-bottom: 10px; margin-right: 20px; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 1.5em; width: 250px; border-radius: 10px; border: 2px solid #E4E6EB;}
 .list_simple .graphic .coin_graphic, .list_simple .graphic .coin_name{float: left;}
 .list_simple .graphic .coin_graphic{ border: 1px solid #E4E6EB;}
-.list_simple .graphic .coin_name{color: rgb(66, 139, 202);margin-right: 15px;}
+.list_simple .graphic .coin_name{color: rgb(66, 139, 202);margin-right: 15px; text-aligh: right; width: 100px;}
 
 .list {margin: auto; width: 90%;}
 .list . coins{ width: auto;}
