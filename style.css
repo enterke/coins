@@ -8,10 +8,10 @@
 .list_simple .coins span span, .list_simple .coins span { width: 170px; float: left;}
 .list_simple .coins * { border: none !important; font-size: 1.5em; text-align: center;}
 
-.list_simple .graphic{ float: left; margin-bottom: 10px; margin-right: 20px; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 1.5em;}
+.list_simple .graphic{ float: left; margin-bottom: 10px; margin-right: 20px; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 1.5em; width: 250px;}
 .list_simple .graphic .coin_graphic, .list_simple .graphic .coin_name{float: left;}
 .list_simple .graphic .coin_graphic{}
-.list_simple .graphic .coin_name{}
+.list_simple .graphic .coin_name{color: rgb(66, 139, 202);margin-right: 15px;}
 
 .list {margin: auto; width: 90%;}
 .list . coins{ width: auto;}
