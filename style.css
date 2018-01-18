@@ -1,13 +1,14 @@
 
-.list_details .coins{ float: left; margin-bottom: 6px; height: 158px; background-color: white; width: 350px;}
+.list_details .coins{ float: left; margin-bottom: 6px; height: 158px; background-color: white; }
 .list_simple .coins{ float: left; margin-bottom: 10px; height: 143px;}
 .list_simple .coins .coinmarketcap-currency-widget div div:last-child{ display: none;}
 .list_simple .coins .coinmarketcap-currency-widget div{line-height:29px!important; float: left!important;margin-left:15px;  }
-.list_simple .coins .coinmarketcap-currency-widget{width: 250px;}
-.list_simple .coins .coinmarketcap-currency-widget div{width: 210px;}
+.list_simple .coins .coinmarketcap-currency-widget{}
+.list_simple .coins .coinmarketcap-currency-widget div{}
 .list_simple .coins * { border: none !important; font-size: 1.5em;}
 .list_details .coins * {font-size: 1.3em;}
 .list {margin: auto; width: 90%;}
+.list . coins{ width: auto;}
 
 @media only screen and (max-width: 500px) {
   .list_simple .coins * { border: none !important; font-size: 2.3em;}
