@@ -7,7 +7,7 @@
 .list_simple .coins .coinmarketcap-currency-widget div{width: 210px;}
 .list_simple .coins * { border: none !important; font-size: 1.5em;}
 .list_details .coins * {font-size: 1.3em;}
-.list {margin-left: 10px;}
+.list {margin: auto; width: 90%;}
 
 @media only screen and (max-width: 500px) {
   .list_simple .coins * { border: none !important; font-size: 2.3em;}
