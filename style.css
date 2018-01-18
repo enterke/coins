@@ -1,15 +1,16 @@
 .list_details .coins * {font-size: 1.2em; text-align: center;}
-.list_details .coins{ float: left; margin-bottom: 6px; height: 158px; background-color: white; }
+.list_details .coins{ float: left; margin-bottom: 6px; height: 158px; background-color: white; overflow: hidden;}
 .list_simple .coins{ float: left; margin-bottom: 10px; margin-right: 20px; height: 143px;}
 .list_simple .coins .coinmarketcap-currency-widget div div:last-child{ display: none;}
-.list_simple .coins .coinmarketcap-currency-widget div{line-height:29px!important; float: left!important;  }
+.list_simple .coins .coinmarketcap-currency-widget div{line-height:29px!important; float: left!important; border: none!important; }
 .list_simple .coins .coinmarketcap-currency-widget{}
 .list_simple .coins .coinmarketcap-currency-widget div{width: auto!important; min-width:150px!important;}
 .list_simple .coins span span, .list_simple .coins span { width: 170px; float: left;}
 
 .list_simple .coins *, .list_simple .graphic * {font-size: 1.5em; text-align: center;}
 
-.list_simple .graphic{ padding: 8px;float: left; margin-bottom: 10px; margin-right: 20px; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 1em; width: 388px; border-radius: 10px; border: 2px solid #E4E6EB;}
+.list_simple .graphic, .list_details .coins{border-radius: 10px; border: 2px solid #E4E6EB;}
+.list_simple .graphic{ padding: 8px;float: left; margin-bottom: 10px; margin-right: 20px; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 1em; width: 388px; }
 .list_simple .graphic_info {float: left;}
 
 H1,.list_simple .graphic_info {color:#3d6588;}
