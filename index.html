@@ -28,14 +28,13 @@
 
 <script>
 
- // $("#dogecoin > a").css( "border", "3px solid red" );
-//                        .text().replace("Dogecoin (DOGE)", "Dogecoin (xdg)"));  
-
   //$("#dogecoin11").css( "border", "3px solid red" );
-$(document).ready(function(){  
-var search = "Dogecoin (DOGE)";
-var replacement = "Dogecoin (xdg)";
 
-document.body.innerHTML = document.body.innerHTML.split(search).join(replacement);
-})  
+ $('#dogecoin').children().each(function() {
+ var textNode = $(this);
+ textNode.text(textNode.text().replace("Dogecoin (DOGE)", "Dogecoin (xdg)"));
+});
+ 
+
+
 </script>
