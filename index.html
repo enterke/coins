@@ -30,9 +30,10 @@
 
   //$("#dogecoin11").css( "border", "3px solid red" );
 $( document ).ready(function() {
-  $('#dogecoin').children().each(function() {
-  var textNode = $(this);
-  textNode.text(textNode.text().replace("Dogecoin (DOGE)", "Dogecoin (xdg)"));
+ $('#dogecoin').children().each(function () {
+    $(this).html(function (i, html) {
+        return $(this).html().replace(/Dogecoin (DOGE)/g, 'Dogecoin (xdg)');
+    });
  });
 }); 
 
