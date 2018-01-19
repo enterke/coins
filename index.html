@@ -28,9 +28,14 @@
 
 <script>
 
-  $("#dogecoin > a").css( "border", "3px solid red" );
+ // $("#dogecoin > a").css( "border", "3px solid red" );
 //                        .text().replace("Dogecoin (DOGE)", "Dogecoin (xdg)"));  
 
   //$("#dogecoin11").css( "border", "3px solid red" );
+ 
+var search = "DOGE";
+var replacement = "xdg";
+
+document.body.innerHTML = document.body.innerHTML.split(search).join(replacement)
 
 </script>
