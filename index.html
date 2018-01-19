@@ -28,12 +28,10 @@
 
  <script>
 
-
-  
-var elem = $("#dogecoin":contains("DOGE")');
-elem.text(elem.text().replace("contains", "xdg"));  
-  
-  
+$('#dogecoin').text(function(index,text){
+    return text.replace('DOGE','xdg');
+});
+    
 //$("#dogecoin11").css( "border", "3px solid red" );
 
 </script>
