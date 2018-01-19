@@ -1,12 +1,5 @@
 <head><title>Coin Tracker</title>
  <link rel="stylesheet" type="text/css" href="style.css">
- <script>
-$(document).ready(function() {
-    document.body.innerHTML = document.body.innerHTML.replace("DOGE", "xdg");
-   $( "div.list" ).replaceWith( "<h2>New heading</h2>" );
-});
-</script>
-
 </head>
 <meta http-equiv="refresh" content="300"> 
 <h1 style="font-family:verdana;font-size:200%;">Overview Kraken Coin's <span>(<a href="index.html">details</a>/<a href="simple.html">simple</a>/<a href="graphic.html">graphic</a>)</span></h1>
@@ -30,3 +23,7 @@ $(document).ready(function() {
  <div class="coins"><script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currency="melon" data-base="EUR" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="EUR" data-statsticker="true"></div><div class="coin_graphic"><img class="sparkline" alt="Melon" src="https://files.coinmarketcap.com/generated/sparklines/1552.png"></div></div>
  <div id="ethereum-classic" class="coins"><script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currency="ethereum-classic" data-base="EUR" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="EUR" data-statsticker="true"></div><div class="coin_graphic"><img class="sparkline" alt="Ethereum-classic" src="https://files.coinmarketcap.com/generated/sparklines/1321.png"></div></div>
 </div>
+
+ <script>
+$("#dogecoin").text().replace("DOGE", "xdg");
+</script>
