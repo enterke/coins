@@ -29,12 +29,12 @@
 <script>
 
   //$("#dogecoin11").css( "border", "3px solid red" );
-
- $('#dogecoin').children().each(function() {
- var textNode = $(this);
- textNode.text(textNode.text().replace("Dogecoin (DOGE)", "Dogecoin (xdg)"));
-});
- 
+$( document ).ready(function() {
+  $('#dogecoin').children().each(function() {
+  var textNode = $(this);
+  textNode.text(textNode.text().replace("Dogecoin (DOGE)", "Dogecoin (xdg)"));
+ });
+}); 
 
 
 </script>
