@@ -32,7 +32,7 @@
 $( document ).ready(function() {
  $('#dogecoin').children().each(function () {
     $(this).html(function (i, html) {
-        return $(this).html().replace(/Dogecoin (DOGE)/g, 'Dogecoin (xdg)');
+        return $(this).html().replace(/DOGE/g, 'xdg');
     });
  });
 }); 
