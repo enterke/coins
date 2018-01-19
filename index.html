@@ -27,8 +27,11 @@
 </div>
 
  <script>
-$("#dogecoin").text().replace("DOGE", "xdg");
+
+$("#dogecoin").text(function () {
+    return $(this).text().replace("DOGE", "xdg"); 
+});
   
-$("#dogecoin").css( "border", "3px solid red" );
+$("#dogecoin11").css( "border", "3px solid red" );
 
 </script>
