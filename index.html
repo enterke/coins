@@ -26,12 +26,10 @@
  <div id="ethereum-classic" class="coins"><div class="coinmarketcap-currency-widget" data-currency="ethereum-classic" data-base="EUR" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="EUR" data-statsticker="true"></div><div class="coin_graphic"><img class="sparkline" alt="Ethereum-classic" src="https://files.coinmarketcap.com/generated/sparklines/1321.png"></div></div>
 </div>
 
- <script>
+<script>
 
-$('#dogecoin').text(function(index,text){
-    return text.replace('DOGE','xdg');
-});
-    
-//$("#dogecoin11").css( "border", "3px solid red" );
+  $("#dogecoin a").text($("#dogecoin a").text().replace("DOGE", "xdg"));  
+
+  //$("#dogecoin11").css( "border", "3px solid red" );
 
 </script>
