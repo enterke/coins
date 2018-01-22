@@ -12,7 +12,6 @@
 .list_simple #tijd{width: 170px; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; padding-top: 23px; line-height: 30px;font-size: 1.3em;}
 .coins .coinmarketcap-currency-widget div {border: none!important;}
 
-
 .list_simple .coins *, .list_simple .graphic * {font-size: 1.5em; text-align: center;}
 
 .list_simple .graphic, .list_simple .coins, .list_details .coins{border-radius: 10px; border: 2px solid #E4E6EB;}
@@ -35,7 +34,7 @@ H1,.list_simple .graphic_info, .list_simple #tijd {color:#3d6588;}
 
 
 H1{text-align: center; }
-H1 span{font-size: 70%!important;
+/*H1 span{font-size: 70%!important;*/
 
 .stuklist_details .coins .coinmarketcap-currency-widget div:first-of-type div:last-child{ display: none;}
 
