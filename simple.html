@@ -62,7 +62,7 @@ $(document).ready(function(){
 <script>
 function take_screenshot()
 {
-	alert("ggg");
+	
  html2canvas(document.body, {  
   onrendered: function(canvas)  
   {
@@ -70,6 +70,7 @@ function take_screenshot()
     $.post("save_screenshot.php", {data: img}, function (file){
 	window.location.href =  "save_screenshot.php?file="+ file
     });
+	  alert("ggg");
   }
  });
 }
