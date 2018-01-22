@@ -1,7 +1,6 @@
 <head><title>Coin Tracker</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-  <script src="/js/moment.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <meta http-equiv="refresh" content="300"> 
@@ -30,12 +29,10 @@
 
 <script>
 $(document).ready(function(){
- // var d = new Date();
- // var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
- //time= moment().format('MMMM Do YYYY, h:mm:ss a'); 
-  
- var time = moment();
-    $('#tijd').html(time);
+  var d = new Date();
+  var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+  var date= d.getDay() + "-" + d.getMonth();
+  $('#tijd').html(time);
 });
 
 
