@@ -30,9 +30,9 @@
 <script>
 $(document).ready(function(){
   var d = new Date();
-  var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
-  var date= d.getDay() + "-" + d.getMonth();
-  $('#tijd').html(time + <br> + date);
+  var uur = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+  var dag= d.getDay() + "-" + d.getMonth();
+  $('#tijd').html(uur + "<br>" + dag);
 });
 
 
