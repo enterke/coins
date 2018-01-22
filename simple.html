@@ -41,7 +41,7 @@ $(document).ready(function(){
   weekday[6] = "Saturday";
 
   var dag = weekday[d.getDay()];
-  var maand= getMonth();
+  var maand= d.getMonth();
   
   $('#tijd').html(dag + maand + "<br>" + uur);
 });
