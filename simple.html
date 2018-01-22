@@ -25,13 +25,14 @@
   <div class="coins"><div class="coinmarketcap-currency-widget" data-currency="melon" data-base="EUR" data-secondary="" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-stats="EUR" data-statsticker="false"></div></div>
   <div class="coins"><div class="coinmarketcap-currency-widget" data-currency="ethereum-classic" data-base="EUR" data-secondary="" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-stats="EUR" data-statsticker="false"></div></div>
   <div class="coins"><div id="tijd"></div></div>
-  <div class="coins"><div id="tijd2"></div>g</div>
 </div>
 
 <script>
 $(document).ready(function(){
-    $('#tijd2').html($.now());
+  var d = new Date();
+  var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+    $('#tijd').html(time);
 });
-//  $('#tijd').html($.now());
+
 
 </script>
