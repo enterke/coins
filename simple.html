@@ -32,7 +32,9 @@
 $(document).ready(function(){
  // var d = new Date();
  // var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
- time= moment().format('MMMM Do YYYY, h:mm:ss a'); 
+ //time= moment().format('MMMM Do YYYY, h:mm:ss a'); 
+  
+ var time = moment($(e).attr('datetime')); 
     $('#tijd').html(time);
 });
 
