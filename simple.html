@@ -33,13 +33,13 @@ $(document).ready(function(){
   var uur = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
   //var weekday = new Array(7);
   var weekday =  ["Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"];
-  var m_names = ['Januarie', 'Februarie', 'Maart', 'April', 'Mei', 'Juni', 'July', 'Augustus', 'September', 'Oktober', 'November', 'December'];
+  var m_names = ['Januari', 'Februari', 'Maart', 'April', 'Mei', 'Juni', 'July', 'Augustus', 'September', 'Oktober', 'November', 'December'];
   var n = m_names[d.getMonth()];
   var dd = d.getDate();
   var dag = weekday[d.getDay()];
   var maand= d.getMonth();
   
-  $('#tijd').html(dag + dd + n + "<br>" + uur);
+  $('#tijd').html(dag + "<br>" + dd + n + "<br>" + uur);
 });
 
 
