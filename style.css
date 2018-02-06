@@ -1,5 +1,5 @@
 .list_details .coins * {font-size: 1.2em; text-align: center; }
-.list_details .coins{ float: left; margin-bottom: 10px; height: 210px; background-color: white; overflow: hidden;margin-right:10px; padding-right: 8px;width: 300px;}
+.list_details .coins{ float: left; margin-bottom: 10px; height: 220px; background-color: white; overflow: hidden;margin-right:10px; padding-right: 8px;width: 300px;}
 .list_details #ethereum-classic{height: 230px;}
 .list_details .coins br{line-height: 0.3em;}
 .list_details .sparkline{position: relative; top: -28px; background-color: white;}
